@@ -37,4 +37,10 @@ public class TestController {
         return service.getUserInfoOne();
     }
 
+    @RequestMapping(value = "/test")
+    @ResponseBody
+    public Map<String,Object> test(){
+        return null;
+    }
+
 }
